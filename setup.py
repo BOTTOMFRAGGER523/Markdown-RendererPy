@@ -7,11 +7,19 @@ setup(
     install_requires=[
         'pywebview',
         'markdown',
-        'flask'
+        'flask',
     ],
-    description="A brief description of your package",
-    long_description=open('README.md').read(),
-    long_description_content_type='text/markdown',
-    author="BOTTOMFRAGGER523",
-    url="https://github.com/BOTTOMFRAGGER523/Markdown-RendererPy"
+    description="A simple markdown renderer in python",  # Short description
+    long_description=open('README.md').read(),  # Read long description from README
+    long_description_content_type='text/markdown',  # Markdown format for the long description
+    author="BOTTOMFRAGGER523",  # Your name
+    url="https://github.com/BOTTOMFRAGGER523/Markdown-RendererPy",  # URL of the project (GitHub, etc.)
+    classifiers=[  # PyPI classifiers for categorizing the package
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',  # GPLv2 license
+        'Operating System :: OS Independent',  # Cross-platform support
+    ],
+    python_requires='>=3.10',  # Define the minimum Python version requirement
+    license='GPLv2',  # Specify the GPLv2 license
+    keywords='markdownrenderer, markdown renderer',  # Keywords for easier search on PyPI
 )
