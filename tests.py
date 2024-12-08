@@ -2,7 +2,7 @@ import sys
 import os
 
 # Append the parent directory of 'Markdown_renderer' to sys.path
-parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), 'Markdown_renderer'))
+parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), 'markdownrenderer'))
 sys.path.append(parent_dir)
 
 # Main tests begin here
