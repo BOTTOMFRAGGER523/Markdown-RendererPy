@@ -12,3 +12,6 @@
 #
 ### If you want to view the files in PyPi go to
 ``` https://pypi.org/project/markdownrenderer/#files ```
+
+### For Documentation go to
+``` https://github.com/BOTTOMFRAGGER523/Markdown-RendererPy/blob/main/documentation/DOCUMENTATION.md ```
